@@ -1,0 +1,1315 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"sr",
+				"src\tAttr"
+			],
+			[
+				"ro",
+				"rotateZ()\ttransform"
+			],
+			[
+				"servima",
+				"serviceManager"
+			],
+			[
+				"scroma",
+				"scrollManager"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"idx",
+				"Indent XML"
+			],
+			[
+				"inxml",
+				"Indent XML"
+			],
+			[
+				"i",
+				"Indent XML"
+			],
+			[
+				"idenx",
+				"Indent XML"
+			],
+			[
+				"idexml",
+				"Indent XML"
+			],
+			[
+				"iden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"id",
+				"Indent XML"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pretti",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"sesyjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"inden",
+				"Indent XML"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"setyjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"setsy",
+				"Set Syntax: YAML"
+			],
+			[
+				"ide",
+				"Indent XML"
+			],
+			[
+				"forjs",
+				"Formatter: Minify With JSONMin"
+			],
+			[
+				"setsyjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"prett",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"form",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"idenxml",
+				"Indent XML"
+			],
+			[
+				"packli",
+				"Package Control: List Packages"
+			],
+			[
+				"pacinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"be",
+				"Formatter: Beautify With ESLint"
+			],
+			[
+				"bauht",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"beahtml",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"sytahtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"htmbe",
+				"HTMLBeautify"
+			],
+			[
+				"beau",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"formahtm",
+				"Formatter: Minify With HTMLMinifier"
+			],
+			[
+				"wo",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"cli",
+				"Clipboard Diff"
+			],
+			[
+				"setjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"fildi",
+				"FileDiffs: Menu"
+			],
+			[
+				"html",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"beauhtml",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"setsyhtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"beaht",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"formjs",
+				"Formatter: Minify With JSONMin"
+			],
+			[
+				"pre",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"pret",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"formpre",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"formj",
+				"Formatter: Minify With JSONMin"
+			],
+			[
+				"saveal",
+				"File: Save All"
+			],
+			[
+				"setsyn",
+				"Set Syntax: YAML"
+			],
+			[
+				"setysnjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"worr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"setysjava",
+				"Set Syntax: Java"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"clip",
+				"Clipboard Diff"
+			],
+			[
+				"clidi",
+				"Clipboard Diff"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"prettier",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"setsyjs",
+				"Set Syntax: JSON"
+			],
+			[
+				"formpret",
+				"Formatter: Beautify With Prettier"
+			],
+			[
+				"setyajs",
+				"Set Syntax: JSON"
+			],
+			[
+				"formht",
+				"Formatter: Beautify With HTML Tidy"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"setsyanjavasc",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"packinstal",
+				"Package Control: Install Package"
+			],
+			[
+				"packremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packdisa",
+				"Package Control: Disable Package"
+			],
+			[
+				"packena",
+				"Package Control: Enable Package"
+			],
+			[
+				"paceli",
+				"Package Control: List Packages"
+			],
+			[
+				"pacremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packremov",
+				"Package Control: Remove Package"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"iddn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"setsyjavs",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"saveas",
+				"Project: Save As"
+			],
+			[
+				"set synlo",
+				"Set Syntax: Log Highlight"
+			],
+			[
+				"log",
+				"Log Highlight: Erase Custom Syntax & Theme"
+			],
+			[
+				"packinst",
+				"Package Control: Install Package"
+			],
+			[
+				"setjavsc",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"worwr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"for",
+				"JsPrettier: Format Code"
+			],
+			[
+				"setjavas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"setjso",
+				"Set Syntax: JSON"
+			],
+			[
+				"sejava",
+				"Set Syntax: Java"
+			],
+			[
+				"seyjava",
+				"Set Syntax: Java"
+			],
+			[
+				"syntajavasc",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"pacdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"teminal",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"bamb",
+				"Bamboo: Build Plan"
+			],
+			[
+				"bam",
+				"Bamboo: Build Plan"
+			],
+			[
+				"bambu",
+				"Bamboo: Build Plan"
+			],
+			[
+				"a",
+				"Project Manager: Add New Project"
+			],
+			[
+				"addfo",
+				"Project: Add Folder"
+			],
+			[
+				"bab",
+				"Bamboo: Build Plan"
+			],
+			[
+				"adnew",
+				"Project Manager: Add New Project"
+			],
+			[
+				"adfo",
+				"Project: Add Folder"
+			],
+			[
+				"prclo",
+				"Project: Close"
+			],
+			[
+				"fas",
+				"fasd: Jump to directory"
+			],
+			[
+				"fasd",
+				"fasd: Jump to directory"
+			],
+			[
+				"pacli",
+				"Package Control: List Packages"
+			],
+			[
+				"jira",
+				"SublimeJira: Get issue"
+			],
+			[
+				"jirage",
+				"SublimeJira: Get issue"
+			],
+			[
+				"chccuf",
+				"Git: Checkout Current File"
+			],
+			[
+				"syntababe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"sesynta",
+				"Set Syntax: Perl"
+			],
+			[
+				"dasca",
+				"Convert Case: dash-case"
+			],
+			[
+				"snak",
+				"Convert Case: snake_case"
+			],
+			[
+				"cacam",
+				"Convert Case: camelCase"
+			],
+			[
+				"casecam",
+				"Convert Case: camelCase"
+			],
+			[
+				"openpr",
+				"Project Manager: Open Project"
+			],
+			[
+				"dicul",
+				"Git: Diff Current File"
+			],
+			[
+				"difcu",
+				"Git: Diff Current File"
+			],
+			[
+				"pacrmopac",
+				"Package Control: Remove Package"
+			],
+			[
+				"pacremop",
+				"Package Control: Remove Package"
+			],
+			[
+				"chab",
+				"Git: Change Branch"
+			],
+			[
+				"gitchanbr",
+				"Git: Change Branch"
+			],
+			[
+				"chanbra",
+				"Git: Change Branch"
+			],
+			[
+				"chanbr",
+				"Git: Change Branch"
+			],
+			[
+				"gilocufi",
+				"Git: Log Current File"
+			],
+			[
+				"fildif",
+				"FileDiffs: Menu"
+			],
+			[
+				"packremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"viein",
+				"View In Browser"
+			],
+			[
+				"gitcheccuf",
+				"Git: Checkout Current File"
+			],
+			[
+				"markdowp",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"term",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"termin",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"termi",
+				"Terminal View: Open Bash Terminal"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 431.0,
+		"history":
+		[
+			"window.run_command(\"example\")",
+			"help()",
+			"hel()",
+			"help",
+			"reload plugin",
+			"reload"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/xueg/Star"
+	],
+	"file_history":
+	[
+		"/Users/xueg/Desktop/sea/cico.html",
+		"/Users/xueg/Desktop/Star/index.html",
+		"/Users/xueg/Desktop/Star/turtle.html",
+		"/Users/xueg/Desktop/Star/moon.html",
+		"/Users/xueg/source/phoenix/phoenix-api-collections/apis/postmate.yaml",
+		"/Users/xueg/Desktop/new/au_invoice_weekly_191210141601694/au_invoice_weekly_2882147_191210141600919.xml",
+		"/Users/xueg/Desktop/new/112019_au_03_customer_statements.xml",
+		"/Users/xueg/Desktop/au_invoice_weekly_191210141601694/au_invoice_weekly_2882147_191210141600919.xml",
+		"/Users/xueg/Desktop/au_invoice_weekly_191202161514464/au_invoice_weekly_3015495_191202161513422.xml",
+		"/Users/xueg/Downloads/logs-from-apache-metrics-exporter-in-vehement-koala-application-control-service-99c596d4f-sqkh8.txt",
+		"/Users/xueg/Desktop/102019_au_B2_customer_statements.xml",
+		"/Users/xueg/Downloads/aws-transfer-custom-idp-basic-apig.template.yml",
+		"/Users/xueg/Downloads/sftp-lambda-role.yaml",
+		"/Users/xueg/Desktop/--------- ip not allow -------------",
+		"/Users/xueg/Desktop/in\\19-232_2050_2.xml",
+		"/Users/xueg/Desktop/databuild_in\\1000_003_1.xml",
+		"/Users/xueg/Desktop/in\\1000_003_12.xml",
+		"/Users/xueg/Desktop/in\\1000_003_1.xml",
+		"/Users/xueg/Downloads/logs-from-enterprise-customer-auth-service-in-xrayed-antelope-enterprise-customer-auth-service-78b6cc6df6p96g.txt",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/002_260_1.xml",
+		"/Users/xueg/Desktop/au/102019_au_02_customer_statements.xml",
+		"/Users/xueg/Desktop/fergus",
+		"/Users/xueg/Desktop/sample.yaml",
+		"/Users/xueg/source/phoenix/ariba-integration-gateway/samples/broadspectrum/4541668927.xml",
+		"/Users/xueg/source/phoenix/ariba-integration-gateway/samples/broadspectrum/4541668927_212420653.xml",
+		"/Users/xueg/source/phoenix/ariba-integration-gateway/samples/broadspectrum/4700219601.xml",
+		"/Users/xueg/Downloads/4541668927_212420653.xml",
+		"/Users/xueg/Downloads/4541668927.xml",
+		"/Users/xueg/Desktop/bold and Villa",
+		"/Users/xueg/Desktop/invoices_statements_20191002_1161/au_customer_statements_20191002/092019_au_02_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_au_02_customer_statements[2].xml",
+		"/Users/xueg/Desktop/current/092019_au_05_customer_statements.xml",
+		"/Users/xueg/Desktop/au_invoice_weekly_191001050056764/au_invoice_weekly_442705_191001050055379.xml",
+		"/Users/xueg/source/xueg/metricon-statement/092019_au_B3_customer_statements.xml",
+		"/Users/xueg/Desktop/122018_au_02_customer_statements.xml",
+		"/Users/xueg/Downloads/index(1).yaml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/fz3temp-2/122018_au_02_customer_statements.xml",
+		"/Users/xueg/Desktop/122018_nz_01_customer_statements.xml",
+		"/Users/xueg/Desktop/wraong",
+		"/Users/xueg/Desktop/ariba",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_nz_01_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_nz_01_customer_statements_nonPiiData.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_au_02_customer_statements.xml",
+		"/Users/xueg/Desktop/porter davis",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_nz_01_customer_statements_nonPiiData[2].xml",
+		"/Users/xueg/Desktop/122018_au_02_customer_statements_nonPiiData.xml",
+		"/Users/xueg/Downloads/logs-from-enterprise-customer-auth-service-in-eating-markhor-enterprise-customer-auth-service-6dd6c5f58bx25ql.txt",
+		"/Users/xueg/Desktop/082019_au_B3_customer_statements.xml",
+		"/Users/xueg/Desktop/full text",
+		"/Users/xueg/Desktop/tabular fulltext",
+		"/Users/xueg/Desktop/082019_au_04_customer_statements.xml",
+		"/Users/xueg/Desktop/sqls",
+		"/Users/xueg/Desktop/072019_au_04_customer_statements.xml",
+		"/Users/xueg/Desktop/ask paul about acc-ord-sum",
+		"/Users/xueg/Desktop/price",
+		"/Users/xueg/Desktop/Backup.postman_dump.json",
+		"/Users/xueg/Desktop/072019_au_03_customer_statements.xml",
+		"/Users/xueg/Desktop/email poi",
+		"/Users/xueg/Desktop/sam_sink",
+		"/Users/xueg/Desktop/sam2",
+		"/Users/xueg/Desktop/sam1",
+		"/Users/xueg/Desktop/au_invoice_weekly_180731201954960/au_invoice_weekly_566432_180731185616380.xml",
+		"/Users/xueg/Desktop/062019_au_08_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_02_customer_statements[2].xml",
+		"/Users/xueg/Desktop/122018_nz_01_customer_statements_nonPiiData.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_06_customer_statements[1].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_07_customer_statements[1].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_05_customer_statements[1].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_08_customer_statements[2].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_08_customer_statements[1].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_08_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_07_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_06_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_05_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_02_customer_statements[1].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/062019_au_03_customer_statements.xml",
+		"/Users/xueg/Desktop/072018_au_B5_customer_statements.xml",
+		"/Users/xueg/Desktop/062019_au_03_customer_statements.xml",
+		"/Users/xueg/Downloads/logs-from-enterprise-customer-auth-service-in-nosy-platypus-enterprise-customer-auth-service-86466f54b6-x2s6m-1.txt",
+		"/Users/xueg/Desktop/nz_statement/062019_nz_01_customer_statements.xml",
+		"/Users/xueg/Downloads/logs-from-enterprise-customer-auth-service-in-wiggly-abalone-enterprise-customer-auth-service-75d8cc865-fnn4v.txt",
+		"/Users/xueg/Desktop/au_statement/062019_au_03_customer_statements.xml",
+		"/Users/xueg/Desktop/au_statement/062019_au_02_customer_statements.xml",
+		"/Users/xueg/Desktop/au_statement/062019_au_05_customer_statements.xml",
+		"/Users/xueg/source/phoenix/enterprise-customer-auth-service/src/main/java/au/com/reece/invoice/gateway/configuration/SecurityConfig.java",
+		"/Users/xueg/source/phoenix/enterprise-customer-auth-service/src/main/resources/application.properties",
+		"/Users/xueg/source/phoenix/enterprise-customer-auth-service/src/test/java/au/com/reece/invoice/gateway/component/InvoiceBatchComponentTest.java",
+		"/Users/xueg/source/phoenix/enterprise-customer-auth-service/src/test/java/au/com/reece/invoice/gateway/component/InvoiceHeaderComponentTest.java",
+		"/Users/xueg/source/phoenix/enterprise-customer-auth-service/src/test/java/au/com/reece/invoice/gateway/cucumber/steps/InvoiceGatewayAPITestsSteps.java",
+		"/Users/xueg/Desktop/nzcust.sql",
+		"/Users/xueg/Desktop/dejploy",
+		"/Users/xueg/Downloads/InventoryItems-20190625.csv",
+		"/Users/xueg/Desktop/note.txt",
+		"/Users/xueg/Desktop/metricon.txt",
+		"/Users/xueg/Downloads/statement-v0.4.xsd",
+		"/Users/xueg/Downloads/logs-from-customer-application-onboarding-gateway-in-looping-warthog-customer-application-onboarding-gateway-95nznr4.txt",
+		"/Users/xueg/Desktop/error.json",
+		"/Users/xueg/Downloads/logs-from-ar-fuji-integration-service-in-lunging-rabbit-ar-fuji-integration-service-5776bc6d8f-fbmqw.txt",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/invoice_270356953_miss_match.sql",
+		"/Users/xueg/Downloads/java-micrometer_rev2.json",
+		"/Users/xueg/Desktop/042019_nz_01_customer_statements.xml",
+		"/Users/xueg/OneDrive - Reece Group/Fujixerox/042019_nz_B1_customer_statements.xml",
+		"/Users/xueg/Desktop/042019_au_03_customer_statements.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/ABN_00017425_INV_XML_2018-07-26_273265420.xml",
+		"/Users/xueg/source/xueg/de-pii-statement-xml/042019_au_03_customer_statements.xml",
+		"/Users/xueg/OneDrive - Reece Group/Fujixerox/122018_au_02_customer_statements_nonPiiData.xml",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/product_group_with_subgroups.json",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/product_groups_parent.json",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/product_groups.json",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/invoice-headers__response.json",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/invoices__response.json",
+		"/Users/xueg/OneDrive - Reece Group/AGCoombs/205194153.xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_au_02_customer_statements_nonPiiData[3].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_nz_01_customer_statements_nonPiiData[4].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_nz_01_customer_statements_nonPiiData[3].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_au_02_customer_statements_nonPiiData[2].xml",
+		"/private/var/folders/2r/2t0pb0517j1fp4q38twv_jkwb0b82s/T/com.microsoft.Outlook/Outlook Temp/122018_au_02_customer_statements_nonPiiData.xml",
+		"/Users/xueg/Downloads/logs-from-trs-online-admin-ui-service-in-ungaged-peahen-trs-online-admin-ui-service-7587996764-5l9t4.txt",
+		"/Users/xueg/OneDrive - Reece Group/Gary @ Reece Group.url",
+		"/Users/xueg/Downloads/logs-from-trs-online-user-ui-service-in-bulging-prawn-trs-online-user-ui-service-6cd55d9d59-vb8rj.txt",
+		"/Users/xueg/Downloads/logs-from-price-service-in-jolly-macaw-price-service-bb644f6c8-dlx4k.txt",
+		"/Users/xueg/Downloads/logs-from-trs-online-user-ui-service-in-xrayed-tiger-trs-online-user-ui-service-b94bccff9-pfq6n.txt",
+		"/Users/xueg/Downloads/logs-from-trs-online-seo-service-in-zooming-umbrellabird-trs-online-seo-service-688d7fb486-q7vbf.txt",
+		"/Users/xueg/Downloads/asdf",
+		"/Users/xueg/source/reece/trs-online-integration-test/node_modules/moment/min/moment.min.js",
+		"/Users/xueg/source/reece/trs-online-product-content-admin/src/main/frontend/node_modules/semantic-ui-react/dist/es/lib/SUI.js",
+		"/Users/xueg/source/fun/code-parser/node_modules/flow-parser/flow_parser.js",
+		"/Users/xueg/Downloads/logs-from-trs-online-product-content-service-in-newbie-indri-trs-online-product-content-service-56746d45dfhwltk.txt"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 454.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"viadux"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 154.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.loghighlight":
+	{
+		"height": 344.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "star.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"src/main/web/package.json"
+			],
+			[
+				"vendo",
+				"src/main/web/src/vendor.js"
+			],
+			[
+				"baseser",
+				"src/main/web/src/services/base-service.js"
+			],
+			[
+				"servima",
+				"src/main/web/src/services/service-manager.js"
+			],
+			[
+				"bases",
+				"src/main/web/src/services/base-service.js"
+			],
+			[
+				"quoservi",
+				"src/main/web/src/services/quote-service.js"
+			],
+			[
+				"carse",
+				"src/main/web/src/services/cart-service.js"
+			],
+			[
+				"indehtml",
+				"src/main/web/public/index.html"
+			],
+			[
+				"buiconf",
+				"src/main/web/trs-online-frontend-build.config.js"
+			],
+			[
+				"sr/inprod",
+				"src/main/web/dist/index.prod.html"
+			],
+			[
+				"indepro",
+				"src/main/web/dist/index.prod.html"
+			],
+			[
+				"pagecont",
+				"src/main/java/au/com/reece/trsonline/retail/quote/page/PageController.java"
+			],
+			[
+				"pacin",
+				"src/test/java/au/com/reece/trsonline/identity/page/PageControllerIntegrationTest.java"
+			],
+			[
+				"inhtml",
+				"src/main/frontend/public/index.html"
+			],
+			[
+				"glo",
+				"src/main/frontend/src/styles/_globals.scss"
+			],
+			[
+				"appscs",
+				"src/main/frontend/src/app.scss"
+			],
+			[
+				"indej",
+				"src/main/frontend/src/index.js"
+			],
+			[
+				"floconfi",
+				"src/main/frontend/.flowconfig"
+			],
+			[
+				"inj",
+				"src/main/frontend/src/index.js"
+			],
+			[
+				"pom",
+				"pom.xml"
+			],
+			[
+				"reamm",
+				"README.md"
+			],
+			[
+				"reama",
+				"src/main/java/au/com/reece/trsonline/identity/ApplicationMain.java"
+			],
+			[
+				"logservi",
+				"src/main/frontend/src/service/login-service.js"
+			],
+			[
+				"loginpa",
+				"src/main/frontend/src/container/login-page.js"
+			],
+			[
+				"logpaj",
+				"src/main/frontend/src/container/login-page.js"
+			],
+			[
+				"logpa",
+				"src/main/frontend/src/container/login-page.js"
+			],
+			[
+				"trslinidenappcom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsoidenappcom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsidentiappcom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trson",
+				"environment/trsonline_dmzprod_au.properties"
+			],
+			[
+				"trsonlinideapplicomm",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsideoncom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsonidenappcommon",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsidenapp/com",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsonpdecom",
+				"app/trs-online-payment-shared-service/common.properties"
+			],
+			[
+				"containidenappnz",
+				"container/trs-online-identity-application/trsonline_dmzstg_nz.properties"
+			],
+			[
+				"idenapnz",
+				"app/trs-online-identity-application/trsonline_dmzprod_nz.properties"
+			],
+			[
+				"retilorcom",
+				"app/trs-online-retail-order-application/common.properties"
+			],
+			[
+				"trsidneservicom",
+				"app/trs-online-identity-service/common.properties"
+			],
+			[
+				"trsidentestau",
+				"app/trs-online-identity-application/trsonline_dmztest_au.properties"
+			],
+			[
+				"identicom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"trsoncom",
+				"app/trs-online-nps-service/common.properties"
+			],
+			[
+				"trsideecom",
+				"app/trs-online-kaden-website-frontend/common.properties"
+			],
+			[
+				"trsidencom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"tronidentiycom",
+				"app/trs-online-identity-application/common.properties"
+			],
+			[
+				"monvauin",
+				"src/main/frontend/checkout/src/componenets/money-value/index.js"
+			],
+			[
+				"chepa",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"scroma",
+				"src/main/frontend/checkout/src/dom-helper/scroll-manager.js"
+			],
+			[
+				"appjs",
+				"src/main/frontend/checkout/src/app.js"
+			],
+			[
+				"checpajs",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"scrol",
+				"src/main/frontend/checkout/src/dom-helper/scroll-manager.js"
+			],
+			[
+				"monvalin",
+				"src/main/frontend/checkout/src/componenets/money-value/index.js"
+			],
+			[
+				"carprolii",
+				"src/main/frontend/checkout/src/componenets/cart-product-list-item/index.js"
+			],
+			[
+				"moneyvaluin",
+				"src/main/frontend/checkout/src/componenets/money-value/index.js"
+			],
+			[
+				"pagecarmobilheadin",
+				"src/main/frontend/checkout/src/componenets/page-cart-mobile-header/index.js"
+			],
+			[
+				"paymejava",
+				"src/main/java/au/com/reece/retail/order/cartcheckout/response/PaymentTotal.java"
+			],
+			[
+				"shoppicarjava",
+				"src/main/java/au/com/reece/retail/order/model/ShoppingCart.java"
+			],
+			[
+				"monevainde",
+				"src/main/frontend/checkout/src/componenets/money-value/index.js"
+			],
+			[
+				"pacamobilheain",
+				"src/main/frontend/checkout/src/componenets/page-cart-mobile-header/index.js"
+			],
+			[
+				"carproliinde",
+				"src/main/frontend/checkout/src/componenets/cart-product-list-item/index.js"
+			],
+			[
+				"carervi",
+				"src/main/frontend/checkout/src/service/cart-service.js"
+			],
+			[
+				"carmobilhead",
+				"src/main/frontend/checkout/src/componenets/page-cart-mobile-header/index.js"
+			],
+			[
+				"checpa",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"checpai",
+				"src/main/frontend/checkout/src/componenets/page-cart-mobile-header/index.js"
+			],
+			[
+				"checpagj",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"checpain",
+				"src/main/frontend/checkout/src/componenets/page-cart-mobile-header/index.js"
+			],
+			[
+				"inde",
+				"src/main/frontend/checkout/src/index.js"
+			],
+			[
+				"chein",
+				"src/main/frontend/checkout/dist/index.html"
+			],
+			[
+				"chadsf",
+				"src/main/frontend/checkout/src/styles/material-design-iconic-font.min.css"
+			],
+			[
+				"ch",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"che",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"cehc",
+				"check_style.xml"
+			],
+			[
+				"chec",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"checpaj",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"bui",
+				"src/main/frontend/checkout/trs-online-frontend-build.config.js"
+			],
+			[
+				"buicon",
+				"src/main/frontend/checkout/trs-online-frontend-build.config.js"
+			],
+			[
+				"pack",
+				"src/main/web/package.json"
+			],
+			[
+				"checpacjson",
+				"src/main/frontend/checkout/package.json"
+			],
+			[
+				"babel",
+				"src/react/.babelrc"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"regispa",
+				"src/main/frontend/src/container/register-page.js"
+			],
+			[
+				"regipa",
+				"src/main/frontend/src/container/register-page.js"
+			],
+			[
+				"carser",
+				"src/main/frontend/checkout/src/service/cart-service.js"
+			],
+			[
+				"cheag",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"checpagejs",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"apspcs",
+				"src/main/frontend/checkout/src/app.scss"
+			],
+			[
+				"scrolmn",
+				"src/main/frontend/checkout/src/dom-helper/scroll-manager.js"
+			],
+			[
+				"checpagej",
+				"src/main/frontend/checkout/src/pages/checkout-page.js"
+			],
+			[
+				"checkpack",
+				"src/main/frontend/checkout/package.json"
+			],
+			[
+				"src/inde",
+				"src/main/frontend/checkout/src/index.js"
+			],
+			[
+				"bbpro",
+				"config/babel.prod.js"
+			],
+			[
+				"bbes",
+				"config/babel.prod.es6.js"
+			],
+			[
+				"bab",
+				"config/babel.dev.js"
+			],
+			[
+				"demoinde",
+				"demo/src/index.js"
+			],
+			[
+				"wb",
+				"config/webpack.dev.js"
+			],
+			[
+				"babpres",
+				"config/babel.prod.es6.js"
+			],
+			[
+				"stylscs",
+				"demo/src/componenets/styles.scss"
+			],
+			[
+				"dev",
+				"scripts/dev.js"
+			],
+			[
+				"demopac",
+				"demo/package.json"
+			],
+			[
+				"devj",
+				"scripts/dev.js"
+			],
+			[
+				"webc",
+				"config/webpack.dev.js"
+			],
+			[
+				"demoindejs",
+				"demo/src/index.js"
+			],
+			[
+				"inde.",
+				"index.js"
+			],
+			[
+				"app.js",
+				"demo/src/app.js"
+			],
+			[
+				"ap",
+				"src/app.js"
+			],
+			[
+				"web",
+				"webpack.config.js"
+			],
+			[
+				"we",
+				"webpack.config.js"
+			],
+			[
+				"babr",
+				".babelrc"
+			],
+			[
+				"webcon",
+				"webpack.config.js"
+			],
+			[
+				"indhtml",
+				"node_modules/crypto-browserify/example/index.html"
+			],
+			[
+				"webpa",
+				"webpack.dev.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"packjson",
+				"package.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 433.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
