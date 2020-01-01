@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"t",
+				"top\tproperty"
+			],
+			[
+				"p",
+				"position\tproperty"
+			],
+			[
 				"wid",
 				"width\tproperty"
 			],
@@ -586,15 +594,18 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/xueg/Star"
+		"/Users/xueg/Star",
+		"/Users/xueg/Star/sea",
+		"/Users/xueg/Star/star"
 	],
 	"file_history":
 	[
+		"/Users/xueg/source/phoenix/phoenix-api-collections/apis/postmate.yaml",
+		"/Users/xueg/Star/sea/cico.html",
 		"/Users/xueg/Desktop/sea/cico.html",
 		"/Users/xueg/Desktop/Star/index.html",
 		"/Users/xueg/Desktop/Star/turtle.html",
 		"/Users/xueg/Desktop/Star/moon.html",
-		"/Users/xueg/source/phoenix/phoenix-api-collections/apis/postmate.yaml",
 		"/Users/xueg/Desktop/new/au_invoice_weekly_191210141601694/au_invoice_weekly_2882147_191210141600919.xml",
 		"/Users/xueg/Desktop/new/112019_au_03_customer_statements.xml",
 		"/Users/xueg/Desktop/au_invoice_weekly_191210141601694/au_invoice_weekly_2882147_191210141600919.xml",
@@ -716,8 +727,7 @@
 		"/Users/xueg/Downloads/asdf",
 		"/Users/xueg/source/reece/trs-online-integration-test/node_modules/moment/min/moment.min.js",
 		"/Users/xueg/source/reece/trs-online-product-content-admin/src/main/frontend/node_modules/semantic-ui-react/dist/es/lib/SUI.js",
-		"/Users/xueg/source/fun/code-parser/node_modules/flow-parser/flow_parser.js",
-		"/Users/xueg/Downloads/logs-from-trs-online-product-content-service-in-newbie-indri-trs-online-product-content-service-56746d45dfhwltk.txt"
+		"/Users/xueg/source/fun/code-parser/node_modules/flow-parser/flow_parser.js"
 	],
 	"find":
 	{
@@ -1306,8 +1316,8 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 433.0,
+	"side_bar_visible": false,
+	"side_bar_width": 194.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
