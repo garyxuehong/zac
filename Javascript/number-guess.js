@@ -1,3 +1,9 @@
+function star(){
+
+	var aaa = document.getElementById('imgStar');
+	aaa.src = 'star.jpg';
+}
+
 
 function game(max) {
 	alert('Hello, welcome to my guess game');
@@ -12,6 +18,7 @@ function game(max) {
 		count=count+1;
 	
 		if(guess == coin){
+			star();
 			alert('HOORAY!!!');
 			break;
 		}
