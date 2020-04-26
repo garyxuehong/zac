@@ -75,6 +75,15 @@ function makeDiskEle(disk) {
   return newDisk;
 }
 
+function moveFromPoleToPole(from, to) {
+  const fromPole = poles[from];
+  const disk = fromPole.disks[fromPole.disks.length-1];
+  if(disk === undefined) {
+    throw panic(`Nothing to move from pole ${from}`);
+  }
+  move(disk, to);
+}
+
 function move(selfDisk, destPoleId) {
   errorDiv.innerText = '';
   if(typeof selfDisk === 'number') {
