@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <style>
+      #hanoi {
+        display:flex;
+        position: relative;
+        width: 450px;
+        height: 400px;
+        margin: 40px auto 0px;
+        align-items: stretch;
+        justify-content: center;
+      }
+      h1 {
+        text-align: center;
+      }
+      .pole-wrapper {
+        position: relative;
+        width: 150px;
+        height: 100%;
+        border: 1px solid red;
+      }
+      .pole {
+        position: absolute;
+        width: 10px;
+        height: 100%;
+        background-color: black;
+        top: 0px;
+        left: 50%;
+        margin-left: -5px;
+      }
+      .base {
+        width: 90%;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        left: 5%;
+      }
+      .pole-label {
+        position: relative;
+        display: block;
+        top: 20px;
+        text-align: center;
+      }
+      .disk {
+        border: 1px solid green;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <template id="diskTemplate">
+      <div class="disk">
+        <label class="disk-label"></label>
+      </div>
+    </template>
+    <header>
+      <h1>Tower of Hanoi</h1>
+    </header>
+    <div id="hanoi">
+      <div id="left" class="pole-wrapper">
+        <div class="pole"></div>
+        <div class="base"><label class="pole-label">0</label></div>
+      </div>
+      <div id="middle" class="pole-wrapper">
+        <div class="pole"></div>
+        <div class="base"><label class="pole-label">1</label></div>
+      </div>
+      <div id="right" class="pole-wrapper">
+        <div class="pole"></div>
+        <div class="base"><label class="pole-label">2</label></div>
+      </div>
+    </div>
+  </body>
+  <script src="./hanoi.js"></script>
+</html>
