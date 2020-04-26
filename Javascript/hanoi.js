@@ -13,6 +13,7 @@ const COLOR_ARRAY = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
 
 const hanoi = document.querySelector('#hanoi');
 const diskTemplate = document.querySelector("#diskTemplate");
+const errorDiv = document.querySelector('.errors');
 
 let disks = [];
 let poles = [];
@@ -34,6 +35,7 @@ function initPoles() {
 }
 
 function panic(msg) {
+  errorDiv.innerText = msg;
   console.error(msg);
 }
 
@@ -74,8 +76,13 @@ function makeDiskEle(disk) {
 }
 
 function move(selfDisk, destPoleId) {
+  errorDiv.innerText = '';
   if(typeof selfDisk === 'number') {
+    const originDiskId = selfDisk;
     selfDisk = disks[selfDisk];
+    if(selfDisk === undefined) {
+      throw panic(`Cannot find disk ${originDiskId}`);
+    }
   }
   if (destPoleId >= NUM_POLES) {
     throw panic(
