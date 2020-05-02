@@ -181,18 +181,17 @@ async function moveLot(numberOfDisks, from, to, temp) {
       setTimeout(() => {
         moveFromPoleToPole(from, to);
         res();
-      }, 1000);
+      }, 700);
     });
   }
 
   await moveLot(numberOfDisks-1, from, temp, to);
 
-
   await new Promise((res, rej)=>{
     setTimeout(() => {
       moveFromPoleToPole(from, to);
       res();
-    }, 1000);
+    }, 700);
   });
 
   await moveLot(numberOfDisks-1, temp, to, from);
