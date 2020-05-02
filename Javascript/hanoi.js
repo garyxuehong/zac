@@ -4,7 +4,7 @@ const NUM_POLES = 3;
 const HEIGHT = 400;
 const WIDTH = 450;
 const WIDTH_EACH = WIDTH / NUM_POLES;
-const NUM_DISKS = prompt('How many disks?');
+const NUM_DISKS = parseInt(prompt('How many disks?'));
 const WIDTH_DISK_MIN = 30;
 const WIDTH_DISK_MAX = 130;
 const WIDTH_DISK_DELTA = Math.floor(
@@ -48,7 +48,7 @@ function initDisks() {
   for (let i = NUM_DISKS - 1; i >= 0; i--) {
     const disk = makeDisk(i);
     disks[i] = disk;
-    disk.move(0);
+    disk.move(0, true);
   }
 }
 
@@ -59,7 +59,7 @@ function makeDisk(diskId) {
     color: COLOR_ARRAY[diskId % COLOR_ARRAY.length],
     width: WIDTH_DISK_MIN + diskId * WIDTH_DISK_DELTA,
     poleId: undefined,
-    move: (destPoleId) => move(ret, destPoleId),
+    move: (destPoleId, silent) => move(ret, destPoleId, silent),
   };
   ret.ele = makeDiskEle(ret);
   hanoi.appendChild(ret.ele);
@@ -88,7 +88,7 @@ function moveFromPoleToPole(from, to) {
   move(disk, to);
 }
 
-function move(selfDisk, destPoleId) {
+function move(selfDisk, destPoleId, silent) {
   errorDiv.innerText = '';
   if(typeof selfDisk === 'number') {
     const originDiskId = selfDisk;
@@ -134,9 +134,9 @@ function move(selfDisk, destPoleId) {
   recalculateStyle(selfDisk);
   var isFinish = checkIsFinish();
   if(isFinish) {
-    audioHooray.play();
+    !silent && audioHooray.play();
   } else {
-    audioDong.play();
+    !silent && audioDong.play();
   }
 }
 
