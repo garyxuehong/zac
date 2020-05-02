@@ -170,18 +170,32 @@ function recalculateStyle(disk) {
   disk.ele.style.transform = `translate(${tx}px, ${ty}px)`;
 }
 
-function solveProblem() {
-  moveLot(NUM_DISKS, 0, NUM_POLES-1, 1);
+async function solveProblem() {
+  await moveLot(NUM_DISKS, 0, NUM_POLES-1, 1);
 }
 
-function moveLot(numberOfDisks, from, to, temp) {
+async function moveLot(numberOfDisks, from, to, temp) {
+  
   if(numberOfDisks===1) {
-    moveFromPoleToPole(from, to);
-    return;
+    return await new Promise((res, rej)=>{
+      setTimeout(() => {
+        moveFromPoleToPole(from, to);
+        res();
+      }, 1000);
+    });
   }
-  moveLot(numberOfDisks-1, from, temp, to);
-  moveFromPoleToPole(from, to);
-  moveLot(numberOfDisks-1, temp, to, from);
+
+  await moveLot(numberOfDisks-1, from, temp, to);
+
+
+  await new Promise((res, rej)=>{
+    setTimeout(() => {
+      moveFromPoleToPole(from, to);
+      res();
+    }, 1000);
+  });
+
+  await moveLot(numberOfDisks-1, temp, to, from);
 }
 
 
