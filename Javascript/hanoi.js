@@ -4,7 +4,7 @@ const NUM_POLES = 3;
 const HEIGHT = 400;
 const WIDTH = 450;
 const WIDTH_EACH = WIDTH / NUM_POLES;
-const NUM_DISKS = 4;
+const NUM_DISKS = 2;
 const WIDTH_DISK_MIN = 30;
 const WIDTH_DISK_MAX = 130;
 const WIDTH_DISK_DELTA = Math.floor(
@@ -16,6 +16,8 @@ const COLOR_ARRAY = ['red', 'green', 'blue', 'yellow', 'purple', 'orange'];
 const hanoi = document.querySelector('#hanoi');
 const diskTemplate = document.querySelector("#diskTemplate");
 const errorDiv = document.querySelector('.errors');
+const audioDong = document.querySelector('#audioDong');
+const audioHooray = document.querySelector('#audioHooray');
 
 let disks = [];
 let poles = [];
@@ -130,13 +132,21 @@ function move(selfDisk, destPoleId) {
   destPole.disks.push(selfDisk);
   selfDisk.poleId = destPoleId;
   recalculateStyle(selfDisk);
-  checkIsFinish();
+  var isFinish = checkIsFinish();
+  if(isFinish) {
+    audioHooray.play();
+  } else {
+    audioDong.play();
+  }
 }
 
 function checkIsFinish() {
   const lastPole = poles[NUM_POLES-1];
   if(lastPole.disks.length === NUM_DISKS) {
     confetti.start();
+    return true;
+  } else {
+    return false;
   }
 }
 
