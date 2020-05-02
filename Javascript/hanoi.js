@@ -1,3 +1,5 @@
+//confetti.start();
+
 const NUM_POLES = 3;
 const HEIGHT = 400;
 const WIDTH = 450;
@@ -128,7 +130,16 @@ function move(selfDisk, destPoleId) {
   destPole.disks.push(selfDisk);
   selfDisk.poleId = destPoleId;
   recalculateStyle(selfDisk);
+  checkIsFinish();
 }
+
+function checkIsFinish() {
+  const lastPole = poles[NUM_POLES-1];
+  if(lastPole.disks.length === NUM_DISKS) {
+    confetti.start();
+  }
+}
+
 
 function recalculateStyle(disk) {
   const pole = poles[disk.poleId];
