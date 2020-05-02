@@ -4,7 +4,7 @@ const NUM_POLES = 3;
 const HEIGHT = 400;
 const WIDTH = 450;
 const WIDTH_EACH = WIDTH / NUM_POLES;
-const NUM_DISKS = 2;
+const NUM_DISKS = prompt('How many disks?');
 const WIDTH_DISK_MIN = 30;
 const WIDTH_DISK_MAX = 130;
 const WIDTH_DISK_DELTA = Math.floor(
@@ -56,7 +56,7 @@ function makeDisk(diskId) {
   const ret = {
     diskId: diskId,
     text: `${diskId}`,
-    color: COLOR_ARRAY[diskId],
+    color: COLOR_ARRAY[diskId % COLOR_ARRAY.length],
     width: WIDTH_DISK_MIN + diskId * WIDTH_DISK_DELTA,
     poleId: undefined,
     move: (destPoleId) => move(ret, destPoleId),
@@ -170,7 +170,19 @@ function recalculateStyle(disk) {
   disk.ele.style.transform = `translate(${tx}px, ${ty}px)`;
 }
 
+function solveProblem() {
+  moveLot(NUM_DISKS, 0, NUM_POLES-1, 1);
+}
 
+function moveLot(numberOfDisks, from, to, temp) {
+  if(numberOfDisks===1) {
+    moveFromPoleToPole(from, to);
+    return;
+  }
+  moveLot(numberOfDisks-1, from, temp, to);
+  moveFromPoleToPole(from, to);
+  moveLot(numberOfDisks-1, temp, to, from);
+}
 
 
 
