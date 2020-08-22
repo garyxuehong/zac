@@ -1,0 +1,16 @@
+let poopoo;
+let poopool;
+var fjfj;
+poopoo = "zac";
+poopool = "gary";
+if("zac"== poopoo){
+	alert('gary is a poo');
+}
+b('dizzy');
+b('pig') 
+function b(dumb) {
+	alert(dumb);
+
+
+
+}
