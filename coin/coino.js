@@ -1,7 +1,3 @@
-var coin=[];
-for(var i=0;i<100;i=i+1){
-	coin.push(Math.floor(Math.random()*10));
-}
 console.log(coin);
 var buttons = coin.map(c=>{
 	var button = document.createElement('button');
