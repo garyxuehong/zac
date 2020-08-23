@@ -1,11 +1,7 @@
 
 var ar = [];
-
 put10elementIntoAr();
-
 sortThoseElementsInTheA();
-
-
 //---------- sort ---------
 function sortThoseElementsInTheAr() {
     //if ar[0] = 10
