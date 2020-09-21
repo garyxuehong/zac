@@ -1,39 +1,26 @@
-
-var ar = [];
-put10elementIntoAr();
-sortThoseElementsInTheA();
-//---------- sort ---------
-function sortThoseElementsInTheAr() {
-    //if ar[0] = 10
-    //if ar[1] = 5
-    //now, ar is [10, 5, .....]
-    //what we want is : [5, 10, .....]
+var a = 'Hello '
+function hello(person) {
+    console.log(a + person.name+' ('+'age: '+person.age+')');
 }
 
-
-
-
-//------------------------------------------------sorting now-------------------------------------------------------------------
-
-
-
-
-
-
-//--------------------- init ----------------
-
-function put10elementIntoAr() {
-
-    for(var i=0;i<10;i++) {
-        var randomNumber = Math.random();
-        var randomNumberBetweenZeroAnd100 = randomNumber * 100;
-        var wholeNumberBetweenZeroAnd100 = Math.floor(randomNumberBetweenZeroAnd100);
-        ar.push(wholeNumberBetweenZeroAnd100)
+function start() {
+    var kidOne = {
+        name: 'Zac',
+        age: 7
     }
-
-    console.log(ar);
-    console.log("bum's poo is ");
-    var len = ar.length;
-
-    console.log('length/size of ar is ' + len);
+    var kidTwo = {
+        name: 'Hamish',
+        age: 4
+    }
+    hello(kidOne); 
+    hello(kidTwo); 
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+start()
+/*
+> node .\sort.js
+
+Hello Zac (age: 7)
+Hello Hamish (age: 4)
+
+*/
