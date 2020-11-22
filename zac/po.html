@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fish</title>
+</head>
+<body>
+    <div>hi my name is fishy</div>
+    <canvas id='fishy' width='1000' height="500"></canvas>
+    <style>
+        #fishy {
+          border: 5px solid aqua; 
+        }
+    </style>
+    <script>
+        //body
+        var cc = document.getElementById('fishy');
+        var ctx = cc.getContext('2d');
+        ctx.fillStyle = 'yellow';
+        ctx.beginPath();
+        ctx.ellipse(500,250,100,50,0,0,2 * Math.PI);
+        ctx.fill();
+        //eye
+        ctx.fillStyle = 'black';
+        ctx.beginPath();
+        ctx.ellipse(450,230,10,10,0,0,2 * Math.PI);
+        ctx.fill();
+        //tail
+        ctx.fillStyle = 'orange';
+        ctx.moveTo(560,250);
+        ctx.beginPath();
+        ctx.lineTo(650,200)
+        ctx.lineTo(650,300);
+        ctx.lineTo(560,250);
+        ctx.fill();
+        //mouth
+        ctx.beginPath();
+        ctx.arc(400,250,30,0.1 * Math.PI,0.3 * Math.PI);
+        ctx.stroke();
+
+    </script>
+</body>
+</html>
