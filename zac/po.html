@@ -11,6 +11,8 @@
     <button onclick="moveFish1(-10, 0)">move left</button>
     <button onclick="moveFish1(0, -10)">move up</button>
     <button onclick="moveFish1(0, 10)">move down</button>
+    <button onclick="clearAll()">be invisible</button>
+    <button onclick="drawFish1()">uninvisible</button>
     <br>
     <canvas id='fishy' width='1000' height="500"></canvas>
     <style>
@@ -30,12 +32,16 @@
         function moveFish1(deltaX, deltaY) {
             fish1X = fish1X + deltaX;
             fish1Y = fish1Y + deltaY;
-            clear();
+            clearAll();
             drawFish1();
         }
 
         function drawFish1() {
             drawFish(fish1X, fish1Y);
+            drawFish(fish1X-400, fish1Y-150);
+            drawFish(fish1X+300, fish1Y-150);
+            drawFish(fish1X-400, fish1Y+150);
+            drawFish(fish1X+300, fish1Y+150);
         }
         
         // drawFish(500, 250);
@@ -44,7 +50,7 @@
         // drawFish(100,400);
         // drawFish(800,400)
 
-        function clear() {
+        function clearAll() {
             ctx.clearRect(0, 0, 1000, 500);
         }
 
