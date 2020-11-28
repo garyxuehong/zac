@@ -7,6 +7,11 @@
 </head>
 <body>
     <div>hi my name is fishy</div>
+    <button onclick="moveFish1(10, 0)">move right</button>
+    <button onclick="moveFish1(-10, 0)">move left</button>
+    <button onclick="moveFish1(0, -10)">move up</button>
+    <button onclick="moveFish1(0, 10)">move down</button>
+    <br>
     <canvas id='fishy' width='1000' height="500"></canvas>
     <style>
         #fishy {
@@ -19,11 +24,30 @@
         var cc = document.getElementById('fishy');
         var ctx = cc.getContext('2d');
 
-        drawFish(500, 250);
-        drawFish(100, 100);
-        drawFish(800,100);
-        drawFish(100,400);
-        drawFish(800,400)
+        var fish1X = 500;
+        var fish1Y = 250;
+
+        function moveFish1(deltaX, deltaY) {
+            fish1X = fish1X + deltaX;
+            fish1Y = fish1Y + deltaY;
+            clear();
+            drawFish1();
+        }
+
+        function drawFish1() {
+            drawFish(fish1X, fish1Y);
+        }
+        
+        // drawFish(500, 250);
+        // drawFish(100, 100);
+        // drawFish(800,100);
+        // drawFish(100,400);
+        // drawFish(800,400)
+
+        function clear() {
+            ctx.clearRect(0, 0, 1000, 500);
+        }
+
         function drawFish(x, y) {
             //body        
             ctx.fillStyle = 'yellow';
@@ -47,6 +71,12 @@
             ctx.beginPath();
             ctx.arc(x-100,y,30,0.1 * Math.PI,0.3 * Math.PI);
             ctx.stroke();
+            //bubble
+            ctx.fillStyle = 'white';
+            ctx.beginPath();
+            ctx.ellipse(x,y-80,20,20,0,0,2 * Math.PI);
+            ctx.fill();
+
         }
         
 
