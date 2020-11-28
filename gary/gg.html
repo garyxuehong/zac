@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>crab</title>
+</head>
+
+<body>
+  <div>hello this is my drawing</div>
+  <canvas id="cc" width="800" height="400"></canvas>
+  <style>
+    #cc {
+      border: 2px solid aqua;
+    }
+  </style>
+  <script>
+    var canvas = document.getElementById('cc'); 
+    var ctx = canvas.getContext('2d');
+
+    //body
+    ctx.fillStyle = 'green';
+    ctx.beginPath();
+    ctx.ellipse(400, 200, 100, 50, 0, 0, 2 * Math.PI);
+    ctx.fill();
+
+    //eye
+    ctx.fillStyle = 'blue';
+    ctx.beginPath();
+    ctx.ellipse(350, 180, 10, 10, 0, 0, 2 * Math.PI);
+    ctx.fill();
+
+    //tail
+    ctx.fillStyle = 'tomato';
+    ctx.moveTo(450, 200);
+    ctx.beginPath();
+    ctx.lineTo(550, 130);
+    ctx.lineTo(550, 230);
+    ctx.lineTo(450, 200);
+    ctx.fill();
+
+    //mouth
+    ctx.beginPath();
+    ctx.arc(300, 200, 30, 0.1 * Math.PI, 0.4 * Math.PI);
+    ctx.stroke();
+  </script>
+</body>
+
+</html>
