@@ -13,6 +13,7 @@
     <button onclick="moveFish1(0, 10)">move down</button>
     <button onclick="clearAll()">be invisible</button>
     <button onclick="drawFish1()">uninvisible</button>
+    <button onclick="spin(5)">spin</button>
     <br>
     <canvas id='fishy' width='1000' height="500"></canvas>
     <style>
@@ -28,6 +29,24 @@
 
         var fish1X = 500;
         var fish1Y = 250;
+
+        function spin(d) {
+            setTimeout(function() {
+                moveFish1(-d, d);
+                setTimeout(function(){
+                    moveFish1(d,d);
+                    setTimeout(
+                        function(){
+                            moveFish1(d,-d);
+                            setTimeout(
+                                function(){
+                                    moveFish1(-d,-d)
+                                },1000);
+                            
+                       },1000);
+                }, 1000);
+            }, 1000);
+        }
 
         function moveFish1(deltaX, deltaY) {
             fish1X = fish1X + deltaX;
