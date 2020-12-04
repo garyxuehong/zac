@@ -30,6 +30,49 @@
         var fish1X = 500;
         var fish1Y = 250;
 
+        var crab1X = 100;
+        var crab1Y = 100;
+
+        drawCrab1();
+
+        function drawCrab1() {
+            drawCrab(crab1X, crab1Y, 50, 'blue', 'orange');
+        }
+
+        function drawCrab(x, y, size, color, legColor) {
+            //draw body
+            drawOval(x, y, size, size, color);
+            //draw legs (6 legs)
+            //right legs
+            var rightLegCenterX = x + (2/4) * size;
+            var rightLegCenterY = y;
+            drawRect(rightLegCenterX,  rightLegCenterY - (3/4) * size, size, size/4, 45, legColor);
+            drawRect(rightLegCenterX,  rightLegCenterY - (1/4) * size, size, size/4, 0, legColor);
+            drawRect(rightLegCenterX,  rightLegCenterY + (1/4) * size, size, size/4, -45, legColor);
+            //left legs
+            var leftLegCenterX = x - (2/4) * size;
+            drawRect(leftLegCenterX,  rightLegCenterY - (4/8) * size, size, size/4, 135, legColor);
+            drawRect(leftLegCenterX,  rightLegCenterY, size, size/4, 180, legColor);
+            drawRect(leftLegCenterX,  rightLegCenterY + (3/8) * size, size, size/4, 225, legColor);
+            //draw arms
+            //eyes?
+        }
+
+        function drawRect(x, y, width, height, rotate, color) {
+            ctx.fillStyle = color;
+            ctx.translate(x, y);
+            ctx.rotate(-rotate * Math.PI / 180);
+            ctx.fillRect(0, 0, width, height);
+            ctx.resetTransform();
+        }
+
+        function drawOval(x, y, xRadius, yRadius, color) {
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.ellipse(x,y,xRadius,yRadius,0,0,2 * Math.PI);
+            ctx.fill();
+        }
+
         function spin(d) {
             setTimeout(function() {
                 moveFish1(-d, d);
