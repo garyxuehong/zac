@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fish</title>
+</head>
+<body>
+    <div>hi my name is fishy</div>
+    <br>
+    <canvas id='fishy' width='1000' height="500"></canvas>
+    <style>
+        #fishy {
+          border: 5px solid aqua; 
+          background-color: aqua;
+        }
+    </style>
+    <script>
+
+        var cc = document.getElementById('fishy');
+        var ctx = cc.getContext('2d');
+
+        var fish1 = {
+            x: 500,
+            y: 100,
+            color: 'tomato',
+            name: 'fishy'
+        };
+
+        var fish2 = {
+            x: 600,
+            y: 200,
+            color: 'orange',
+            name: 'fisher'
+        };
+        var fish3 = {
+            x: 700,
+            y: 300,
+            color: 'yellow',
+            name:'fisho'
+        }
+
+        
+        
+        //----------------------------------------
+        //allFish == [fish1, fish2, fish3, fish1];
+        var allFish = [fish1, fish3, fish1];
+        insertFishToAllFish1(fish2);
+        function insertFishToAllFish1(f) {
+            allFish[2]= allFish[1];
+            allFish[1] = f;
+        }
+        //----------------------------------------
+
+        // function appendFish(f) {
+        //     allFish[allFish.length] = f
+        // }
+
+        // function insertFishAt(f, i) {
+
+        // }
+
+        drawAllFish();
+
+        function drawAllFish() {
+            for(var i=0;i<allFish.length;i++) {
+                var f = allFish[i];
+                drawFish(f.x, f.y, f.color);
+            }
+        }
+        
+        function clearAll() {
+            ctx.clearRect(0, 0, 1000, 500);
+        }
+
+        function drawFish(x, y, color) {
+            //body        
+            ctx.fillStyle = color;
+            ctx.beginPath();
+            ctx.ellipse(x,y,100,50,0,0,2 * Math.PI);
+            ctx.fill();
+            //eye
+            ctx.fillStyle = 'black';
+            ctx.beginPath();
+            ctx.ellipse(x-50,y-20,10,10,0,0,2 * Math.PI);
+            ctx.fill();
+            //tail
+            ctx.fillStyle = 'orange';
+            ctx.moveTo(x+60,y);
+            ctx.beginPath();
+            ctx.lineTo(x+150,y-50)
+            ctx.lineTo(x+150,y+50);
+            ctx.lineTo(x+60,y);
+            ctx.fill();
+            //mouth
+            ctx.beginPath();
+            ctx.arc(x-100,y,30,0.1 * Math.PI,0.3 * Math.PI);
+            ctx.stroke();
+            //bubble
+            ctx.fillStyle = 'white';
+            ctx.beginPath();
+            ctx.ellipse(x,y-80,20,20,0,0,2 * Math.PI);
+            ctx.fill();
+
+        }
+        
+
+    </script>
+</body>
+</html>
