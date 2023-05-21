@@ -50,7 +50,7 @@
                 }else{
                     for (var j = 0; j < word.length; j=j+1) {
                         var g = guess.toLowerCase()
-                        if (word[j] === g){
+                        if (answerArray[j] === "_" && word[j] === g){
                             answerArray[j] = g;
                             remainingLetters=remainingLetters-1;
                         }
@@ -58,12 +58,12 @@
                     }
                 }
                 
-                }
+            }
 
 
 
-                alert(answerArray.join(" "))
-                alert("Good job! The answer was "+ word + "." )    
+            alert(answerArray.join(" "))
+            alert("Good job! The answer was "+ word + "." )    
                 
                 
 
