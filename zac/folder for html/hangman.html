@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hangman</title>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+    </head>
+    <body>
+        <h1>Hangman!!!!!!!!!!!!!!!!!!!!!!!!!!!</h1>
+        <p>Congratulations!</p>
+        <script>
+            
+            
+            var instructions = confirm("Do you need the instructions?")
+            if(instructions){
+                alert("This is a game called hangman.")
+                alert("I pick a secret word and you have to guess a letter.")
+                alert("If that letter you guessed is part of the secret word, I will show you.")
+                alert("If the letter isn't in the word, I will also show you")
+                alert("if you guessed all the letters, you win")
+                alert("Good luck!")
+            }
+            var words=[
+                "javascript",
+                "hamish",
+                "pancake",
+                "bottle",
+                "monkey"
+            ];
+
+            var word = words[Math.floor(Math.random() * words.length)];
+            
+            var answerArray = [];
+            for (var i = 0; i < word.length; i=i+1) {
+                answerArray[i] = "_"
+                
+            }
+            
+            var remainingLetters = word.length;
+
+            while (remainingLetters>0){
+                alert(answerArray.join(" "))
+
+                var guess = prompt("Guess a letter or click cancel to stop playing.")
+
+                if (guess === null) {
+                    break;
+                }else if (guess.length != 1){
+                    alert("Please enter a single letter.")
+                }else{
+                    for (var j = 0; j < word.length; j=j+1) {
+                        var g = guess.toLowerCase()
+                        if (word[j] === g){
+                            answerArray[j] = g;
+                            remainingLetters=remainingLetters-1;
+                        }
+                        
+                    }
+                }
+                
+                }
+
+
+
+                alert(answerArray.join(" "))
+                alert("Good job! The answer was "+ word + "." )    
+                
+                
+
+            const jsConfetti = new JSConfetti()
+
+            jsConfetti.addConfetti()
+        </script>
+    </body>
+</html>
