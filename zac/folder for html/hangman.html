@@ -8,16 +8,25 @@
     <body>
         <h1>Hangman!!!!!!!!!!!!!!!!!!!!!!!!!!!</h1>
         <p>Congratulations!</p>
+        <style>
+            #hangman {
+              border: 5px solid aqua; 
+              background-color: aqua;
+            }
+        </style>
         <script>
             
             
-            var instructions = confirm("Do you need the instructions?")
+            var instructions = confirm("Do you need the instructions? Press OK for instructions.")
             if(instructions){
                 alert("This is a game called hangman.")
-                alert("I pick a secret word and you have to guess a letter.")
-                alert("If that letter you guessed is part of the secret word, I will show you.")
-                alert("If the letter isn't in the word, I will also show you")
-                alert("if you guessed all the letters, you win")
+                alert("I pick a secret word.")
+                alert("For every letter, there will be a _.")
+                alert("you have to guess a letter.")
+                alert("If the letter you guessesd is in the word I will replace _ with your guess.")
+                alert("If it isn't in the word I will do nothing.")
+                alert("You can also guess the word if you know the word.")
+                alert("You have 20 tries.")
                 alert("Good luck!")
             }
             var words=[
@@ -25,7 +34,25 @@
                 "hamish",
                 "pancake",
                 "bottle",
-                "monkey"
+                "monkey",
+                "mouse",
+                "school",
+                "homework",
+                "table",
+                "commputer",
+                "laptop",
+                "frying",
+                "hi",
+                "hangman",
+                "maths",
+                "chair",
+                "classroom",
+                "rubik",
+                "checkers",
+                "chess",
+                "fqeshards",
+                "supercalifragilisticexpialidocious",
+                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
             ];
 
             var word = words[Math.floor(Math.random() * words.length)];
@@ -35,16 +62,20 @@
                 answerArray[i] = "_"
                 
             }
-            
             var remainingLetters = word.length;
-
-            while (remainingLetters>0){
+            while(remainingLetters>0){
+                
                 alert(answerArray.join(" "))
 
                 var guess = prompt("Guess a letter or click cancel to stop playing.")
-
-                if (guess === null) {
+                if (k=0) {
+                    alert("you have zero tries.The congratulations means nothing.You lost.")
+                }else if (guess === null) {
                     break;
+                    
+                }else if(guess == word){
+                    break;
+
                 }else if (guess.length != 1){
                     alert("Please enter a single letter.")
                 }else{
@@ -58,7 +89,8 @@
                     }
                 }
                 
-            }
+            };
+            
 
 
 
@@ -73,3 +105,4 @@
         </script>
     </body>
 </html>
+
